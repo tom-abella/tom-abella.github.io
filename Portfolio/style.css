@@ -3,6 +3,9 @@
     font-family: "Montserrat";
     box-sizing: border-box;
 }
+body{
+    background-color: whitesmoke;
+}
 img{
     width: 100%;
 }
