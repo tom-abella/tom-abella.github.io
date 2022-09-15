@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/ball-of-basketball.png" type="image/x-icon">
+    <title>Basketball Scorer</title>
+</head>
+<body>
+    <div class="container">
+        <!--SCOREBOARD-->
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                <div class="wrapper">
+                <h3>HOME</h3>
+                    <div class="box">
+                        <p id="home" class="h1">0</p>
+                    </div>
+                    <div class="box">
+                        <p id="guest" class="h1">0</p>
+                    </div>
+                    <h3>GUEST</h3>
+                </div>
+            </div>
+        </div>
+        <!--End of Scoreboard-->
+        <!--Points Button-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="wrapper-2">
+                        <h3>Home</h3>
+                        <button class="btn btn-outline-light" onclick="oneHome()">+1</button>
+                        <button class="btn btn-outline-light" onclick="twoHome()">+2</button>
+                        <button class="btn btn-outline-light" onclick="threeHome()">+3</button>
+                    </div>
+                </div>
+            <div class="col-md-6">
+                <div class="wrapper-2">
+                        <h3>Guest</h3>
+                        <button class="btn btn-outline-light" onclick="oneGuest()" id="button1">+1</button>
+                        <button class="btn btn-outline-light" onclick="twoGuest()">+2</button>
+                        <button class="btn btn-outline-light" onclick="threeGuest()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <!--End of Points Button-->
+            <!--Control Board-->
+            <div class="row">
+                <div class="col-md-12 align-self-center">
+                    <div class="wrapper-3">
+                        <h3>Control</h3>
+                        <button class="btn btn-outline-light" onclick="newGame()">New Game</button>
+                        <button class="btn btn-outline-light" onclick="endGame()">End Game</button>
+                    </div>
+                </div>
+                <div class="col-md-12 align-self-center"><p class="h1" id="final"></p><p class="h1" id="winner"></p></div>
+            </div>
+    </div>
+    <script src="functions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
