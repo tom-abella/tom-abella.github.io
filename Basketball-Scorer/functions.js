@@ -1,7 +1,8 @@
 let homeScore = document.getElementById("home");
 let guestScore = document.getElementById("guest");
 let winner = document.getElementById("winner");
-let finalText = document.getElementById("final");
+let finalText_1 = document.getElementById("final-1");
+let finalText_2 = document.getElementById("final-2");
 let scoreHome = 0;
 let scoreGuest = 0;
 
@@ -45,16 +46,17 @@ function endGame(){
     else{
         winner.textContent = "The winner is Guest! ";
     }
-    let final = "Final Score: \n Home: "+scoreHome+"\n Guest: "+scoreGuest;
-    finalText.textContent = final;
-    scoreHome = 0;
-    scoreGuest = 0;
-    guestScore.textContent = scoreGuest;
-    homeScore.textContent = scoreHome;
+    let final_1 = "Home: "+scoreHome;
+    let final_2 = "Guest: "+scoreGuest;
+    let final = "Final Score: ";
+    let finals = final_1 +" "+  final_2;
+    finalText_1.textContent = final;
+    finalText_2.textContent = finals;
 }
 //New Game
 function newGame(){
-    final.textContent = "";
+    finalText_1.textContent = "";
+    finalText_2.textContent = "";
     winner.textContent = "";
     scoreHome = 0;
     scoreGuest = 0;
