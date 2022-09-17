@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background-image: url("img/background.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    color:#9c9e43;
+    font-weight: bolder;
+}
+.wrapper{
+    font-family: Montserrat,sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0c4323;
+    width: 100%;
+    max-width: 30rem;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    border-radius: 1rem;
+    margin: 5rem auto;
+    border: 2px solid red;
+}
