@@ -17,6 +17,9 @@ let user = prompt("Enter your Name: ");
 person.name = user;
 infoEl.textContent = person.name + " : "+ person.money;
 
+//instruction
+alert("INSTRUCTION: \nYour Card should get the exact 21. \nif you get a total of 21 you will be added by 300 points.\nif not you will be deducted by 10 points. ");
+
 // random card
 function randomCard(){
     let random = Math.floor(Math.random()*13)+1;
