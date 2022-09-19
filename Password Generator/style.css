@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background-color: #111827;
+    color: white;
+    font-family: Montserrat,sans-serif;
+}
+.subheading{
+    color: #10B981;
+}
+.passwordGenerate{
+    background-color: #273549;
+    height: 2.5rem;
+    border-radius: 1rem;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.wrapper{
+    background-color: #1F2937;
+    border: 2px solid #10B981;
+    border-radius: 1rem;
+    line-height: 3px;
+}
+#number{
+    width: 4rem;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    text-align: center;
+}
+@media (min-width:900px) {
+    .wrapper{
+        margin: auto 10rem;
+    }
+}
