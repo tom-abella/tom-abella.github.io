@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+body{
+    text-align: center;
+    background-color: #273549;
+}
+#userInput::-webkit-inner-spin-button, 
+input[type=number].without_number::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+#userInput{
+    background-color: #6943FF;
+    text-align: center;
+    width: 6rem;
+    border: 1px solid #ffff;
+    font-size: 3rem;
+    color:#ffff;
+    border-radius: 1rem;
+}
+input:focus{
+    border: 1px solid #ffff;
+    outline: 0;
+}
+#convert{
+    display: block;
+    margin:auto;
+}
+.wrapper{
+    background-color: #6943FF;
+    color:#ffff;
+    width:100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding:1rem;
+}
+.wrapper2{
+    background-color: #1f2937;
+    color:black;
+    width: 100%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding:2rem;
+}
+.borders{
+    background-color: #273549;
+    color:#ffff;
+    border-radius: 1rem;
+    border:1px solid #1f2937;
+    margin-bottom: 1rem;
+    padding: 0.8rem 0.5rem 0 0.5rem;
+}
+.mid{
+    margin:auto;
+}
