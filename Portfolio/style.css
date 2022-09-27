@@ -122,6 +122,21 @@ footer{
     padding-bottom: 1rem;
     
 }
+.fa:hover{
+    opacity: 0.25;
+}
+
+/* Card img*/
+.card-img-top{
+    height: 100%;
+    width:100%;
+    max-width: 15rem;
+    max-height: 6rem;
+    margin: 1rem auto;
+    background-position: center;
+    border-radius: unset;
+
+}
 @media(min-width:992px){
     .navbar{
         min-height: 100vh;
