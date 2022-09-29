@@ -56,11 +56,11 @@ img{
 }
 /*container*/
 #form-container{
-    background-color: #212529;
     width:100%;
     height:22rem;
     padding:1rem;
     border-radius: 1rem;
+    color:#212529;
 }
 
 #floatingTextarea2{
@@ -136,6 +136,11 @@ footer{
     background-position: center;
     border-radius: unset;
 
+}
+/*Modal Content*/
+.modal-content{
+    background-color: #212529;
+    color: #fff;
 }
 @media(min-width:992px){
     .navbar{
