@@ -28,7 +28,7 @@
                 <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 <a class="nav-link" href="#about-me">About Me</a>
                 <a class="nav-link" href="#projects">Projects</a>
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#contact" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact</a>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@
                   <h1>Tom Leonard Abella.</h1>
                   <p>I'm a Computer Engineering Tech student who aspire to become a full Stack web developer. Currently I'm focused on Front-end development that will provide responsive interaction to the user.</p>
                   <button class="btn btn-outline-dark" onclick="soon()">Download CV</button>
-                  <a href="#contact" class="btn btn-outline-dark">Contact</a>
+                  <a href="#contact" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact</a>
                 </div>
               </div>
             </div>
@@ -237,12 +237,15 @@
           <!--End of Projects-->
 
           <!--Contact-->
-          <section id="contact" class="full-height px-lg-5">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8">
-                  <h1>Let's Connect:</h1>
-                  <!--Form-->
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Let's Connect</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
                   <div class="container" id="form-container">
                     <div class="form-floating mb-3">
                       <input type="text" class="form-control" id="floatingInput" placeholder="Enter your name">
@@ -262,9 +265,14 @@
                   </form>
                 </div>
                 </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Send</button>
+                </div>
               </div>
-              </div>
-          </section>
+            </div>
+          </div>
+          <!--Modal-->
           <!--Contact-->
         </div>
       <!--End of Content-->
