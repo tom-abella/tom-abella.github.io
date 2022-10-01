@@ -1,15 +1,15 @@
 {
-  "homepage": "http://tom-abella.github.io/Digital-Business-Card/",
+  "homepage": "http://tom-abella.github.io/Digital-Business-Card",
   "name": "vite-card",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^5.2.1",
