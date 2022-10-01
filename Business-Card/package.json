@@ -1,6 +1,6 @@
 {
-  "homepage": "https://tom-abella.github.io/Business-Card/",
-  "name": "vite-card",
+  "homepage": "https://tom-abella.github.io/Business-Card",
+  "name": "vite-digital-business-card",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,8 +12,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "bootstrap": "^5.2.1",
-    "bootstrap-icons": "^1.9.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
