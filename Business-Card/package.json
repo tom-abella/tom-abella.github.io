@@ -4,7 +4,7 @@
   "homepage": "https://tom-abella.github.io/Business-Card/",
   "version": "0.0.0",
   "type": "module",
-  "main":"App.jsx",
+  "main":"./src/App.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
