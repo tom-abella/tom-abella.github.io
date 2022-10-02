@@ -3,11 +3,10 @@ import Info from "./Info"
 import About from "./About"
 import Interest from "./Interest"
 import Footer from "./Footer"
-import  createRoot  from 'react-dom/client'
+import ReactDOM from 'react-dom/client'
+
+
 const container = document.getElementById("root")
-
-
-
 function Page(){
     return(
         <div className="container">
@@ -23,5 +22,4 @@ function Page(){
     )
     
 }
-const root = createRoot(container);
-root.render(<Page/>);
+ReactDOM.createRoot(container).render(<Page />)
