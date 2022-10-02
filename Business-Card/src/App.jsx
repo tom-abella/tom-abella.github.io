@@ -1,9 +1,9 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import Info from "./Info"
-import About from "./About"
-import Interest from "./Interest"
-import Footer from "./Footer"
+import {React} from "react"
+import {Info} from "./Info"
+import {About} from "./About"
+import {Interest} from "./Interest"
+import {Footer} from "./Footer"
+import { createRoot } from 'react-dom/client'
 const container = document.getElementById("root")
 
 
@@ -23,5 +23,5 @@ function Page(){
     )
     
 }
-
-ReactDOM.render(<Page/>,container)
+const root = createRoot(container);
+root.render(<Page/>);
