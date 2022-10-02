@@ -1,9 +1,9 @@
-import {React} from "react"
-import {Info} from "./Info"
-import {About} from "./About"
-import {Interest} from "./Interest"
-import {Footer} from "./Footer"
-import { createRoot } from 'react-dom/client'
+import React from "react"
+import Info from "./Info"
+import About from "./About"
+import Interest from "./Interest"
+import Footer from "./Footer"
+import  createRoot  from 'react-dom/client'
 const container = document.getElementById("root")
 
 

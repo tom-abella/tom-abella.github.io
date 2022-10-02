@@ -1,5 +1,5 @@
-import {React} from "react"
-import {myImg} from "./img/photo.jpg"
+import React from "react"
+import myImg from "./img/photo.jpg"
 export default function info(){
     return(
         <header>
