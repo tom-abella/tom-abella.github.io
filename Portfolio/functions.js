@@ -35,15 +35,25 @@ mail.addEventListener("click",function(){
         alert("Information Required!")
     }
     else{
-        const params = {
-            from_name: name.value,
-            email_id:email_id.value,
-            message: messages.value
+        let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+        if(email_id.value.match(pattern)){
+            const params = {
+                from_name: name.value,
+                email_id:email_id.value,
+                message: messages.value
+            }
+            emailjs.send("service_jakluhz","template_nu6dt2p",params).then(function (res){
+                alert("Success!")
+                name.value = ""
+                email_id.value = ""
+                messages.value = ""
+            })
         }
-        emailjs.send("service_jakluhz","template_nu6dt2p",params).then(function (res){
-            mail.textContent = "Success!"
-            mail.style.background = "Green"
-            mail.style.border = "none"
-        })
+        else{
+            alert("Invalid Email!\nPlease input a valid email!")
+                name.value = ""
+                email_id.value = ""
+                messages.value = ""
+        }
     }
 })
