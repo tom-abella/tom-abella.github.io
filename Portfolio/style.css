@@ -16,7 +16,8 @@ img{
     color:#fff;
 
 }
-.navbar .nav-link:hover{
+
+.navbar .nav-link.active{
     color:grey;
 }
 .full-height{
