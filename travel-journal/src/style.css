@@ -1,0 +1,64 @@
+body{
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.logo{
+    margin:auto;
+}
+.navbar{
+    background-color: #f55a5a;
+    color: #fff;
+}
+.images{
+    width:100%;
+    border-radius: 5px;
+    background-position: center;
+}
+.img-container, .txt-container{
+    margin:auto;
+}
+.fa{
+    color:#f55a5a;
+}
+.txt-container{
+    font-size: 1rem;
+    padding:1rem;
+}
+.images{
+    width:100%;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+    height:20rem;
+}
+.container{
+    padding:1rem;
+    background-color: whitesmoke;
+}
+.jumbotronContainer{
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:  linear-gradient(rgba(0,0,0,00.75),rgba(0,0,0,0.75)),url("./assets/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+.footer{
+        background-color: #f55a5a;
+        color: #fff;
+        border:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+.footer a{
+    color:#b8e3ff;
+    text-decoration: none;
+}
+.footer a:hover{
+    color:#fff;
+}
